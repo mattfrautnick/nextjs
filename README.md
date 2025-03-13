@@ -23,6 +23,14 @@ This is a Next.js application using TypeScript, React, and Tailwind CSS. The pro
     npm install
     ```
 
+### Environment Variables
+
+To run the application locally, create a `.env.local` file in the root of your project and add the necessary environment variables. For example:
+
+```dotenv
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+```
+
 ### Running the Development Server
 
 To start the development server, run:
